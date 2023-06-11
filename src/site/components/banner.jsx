@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Banner() {
     return <section id="banner">
@@ -8,8 +8,8 @@ function Banner() {
                 <div className='col-lg-6'>
                     <h1>Uma plataforma de CRM simples de consigurar e fácil de usar</h1>
                     <h4>Gerencie seus clientes em um único lugar</h4>
-                    <a href="#" className='btn btn-dark btn-lg btn-banner'>Criar uma conta</a>
-                    <a href="/app"   className='btn btn-outline-light btn-lg btn-banner'>Fazer login</a>
+                    <Link to="/app/novaconta" className='btn btn-dark btn-lg btn-banner'>Criar uma conta</Link>
+                    <Link to="/app"   className='btn btn-outline-light btn-lg btn-banner'>Fazer login</Link>
                 </div>
                 <div className='col-lg-6'>
                    <img src="Images/screenshot-crm.png" alt="" />
