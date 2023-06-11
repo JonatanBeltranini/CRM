@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'; //rotas
 
 //Importar páginas
 import Site from "./site/Site";
-import Login from "./app/login";
+import Login from "./app/Login/login";
 
 function App(){
     return <BrowserRouter>
